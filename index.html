@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Kazuhira Miller | Tactical Strategist</title>
+  <title>Personnel File: K. Miller</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- FONTS -->
@@ -70,6 +70,49 @@
       width: 100%;
     }
 
+    /* FILE STYLE */
+    .file-label {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.8rem;
+      color: #d4b100;
+      margin-bottom: 0.25rem;
+    }
+
+    .file-heading {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 2.2rem;
+      margin: 0.2rem 0 0.8rem;
+      border-bottom: 2px solid #d4b100;
+      display: inline-block;
+      padding-bottom: 0.2rem;
+    }
+
+    .file-body {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #e6e6e6;
+      max-width: 700px;
+    }
+
+    .file-stamp {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      font-size: 0.75rem;
+      color: #ff3b3b;
+      border: 2px solid #ff3b3b;
+      display: inline-block;
+      padding: 0.3rem 0.6rem;
+      margin: 1rem 0;
+      transform: rotate(-3deg);
+      opacity: 0.85;
+    }
+
     /* HERO */
     .hero {
       min-height: 90vh;
@@ -84,50 +127,6 @@
 
     .hero-inner {
       max-width: 900px;
-    }
-
-    .hero-tag {
-      color: #f5e29b;
-      letter-spacing: 0.25em;
-      text-transform: uppercase;
-      font-size: 0.75rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .hero-title {
-      font-size: 3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      margin-bottom: 1rem;
-    }
-
-    .hero-sub {
-      max-width: 35rem;
-      color: #ddd;
-      margin-bottom: 2rem;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 0.75rem 1.75rem;
-      border: 1px solid #d4b100;
-      color: #d4b100;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      font-size: 0.8rem;
-      text-decoration: none;
-      transition: 0.2s ease-out;
-      margin-right: 1rem;
-    }
-
-    .btn:hover {
-      background: #d4b100;
-      color: #000;
-    }
-
-    .btn-primary {
-      background: #d4b100;
-      color: #000;
     }
   </style>
 </head>
@@ -150,17 +149,29 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <div class="hero-tag">Diamond Dogs Tactical Command</div>
-      <h1 class="hero-title">Kazuhira Miller</h1>
-      <p class="hero-sub">
-        Tactician, mentor, and survivor. Strategy isn’t luck — it’s discipline, awareness, and the will to keep moving when everything else falls apart.
+
+      <div class="file-label">Personnel File</div>
+      <h1 class="file-heading">Kazuhira Miller</h1>
+
+      <div class="file-stamp">Restricted</div>
+
+      <p class="file-body">
+        Subject serves as a tactical advisor and training coordinator. Responsibilities include
+        operational planning, personnel assessment, and readiness oversight. Performance remains
+        consistent across all recorded evaluations. Communication style is direct and procedural.
       </p>
 
-      <a href="about.html" class="btn btn-primary">About Miller</a>
-      <a href="training.html" class="btn">Training Philosophy</a>
+      <p class="file-body">
+        Additional documentation available in associated sections: <br>
+        • Background Summary (About) <br>
+        • Training Protocols (Training) <br>
+        • Field Records (Operations)
+      </p>
+
     </div>
   </section>
 
 </body>
 </html>
+
 
